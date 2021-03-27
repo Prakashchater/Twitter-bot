@@ -5,10 +5,9 @@ from time import sleep
 
 PROMISED_SPEED = 100
 PROMISED_UP = 50
-EMAIL = "chaterprakash"
-PASSWORD = "pcchater@160997"
-PHONE = "7209914210"
-webdriver_path = "C:\Chrome driver\chromedriver.exe"
+EMAIL = "YOUR EMAIL ID"
+PASSWORD = "YOUR PASSWORD"
+webdriver_path = "WEB DRIVER PATH"
 
 
 
@@ -66,13 +65,4 @@ class InternetSpeedTwitterBot:
 bot = InternetSpeedTwitterBot(webdriver_path)
 bot.get_internet_speed()
 bot.tweet_at_provider()
-# sleep(1)
-# login = driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div/main/div/div/div/div[1]/div/div[3]/a[2]')
-# login.click()
-#
-# email_login = driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[2]/main/div/div/div[2]/form/div/div[1]/label')
-# email_login.send_keys(EMAIL)
-# password_login = driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[2]/main/div/div/div[2]/form/div/div[2]/label/div/div[2]/div/input')
-# password_login.send_keys(PASSWORD)
-# password_login.send_keys(Keys.ENTER)
 
